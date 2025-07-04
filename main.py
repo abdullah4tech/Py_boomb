@@ -7,7 +7,7 @@ def guess_game_simulated():
     fake_target = "C:/Windows" if os.name == "nt" else "/System"
 
     print("Guess the number between 1 and 5. You have 3 tries.")
-    print(f"⚠️ WARNING: If you fail, the system will be 'deleted'... 😉")
+    print(f"⚠️ You are already late! 😉")
 
     for i in range(max_attempts):
         try:
